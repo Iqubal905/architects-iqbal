@@ -324,21 +324,46 @@ padding: 20px 0;
 }
 
 /* -----------------
+responsive design 
+-------------------- */
+@media only screen and (max-width: 992px){
+  .icon-boxs, .sponsors-icon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     justify-content: center;
+     align-items: center;
+  }
+}
+/* -----------------
 responsive design for tablet
 -------------------- */
 
 @media only screen and (max-width: 768px) {
     header{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         padding: 40px 0;
         align-items: center;
+     }
+     .menu-items ul{
+      display: block;
+      
+  }
+     .first-features-section{
+      grid-template-columns: repeat(1, 1fr);
+      
+     }
+     .features-img{
+      margin-bottom: 30px;
      }
      .icon-boxs, .sponsors-icon{
        display: grid;
        grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         align-items: center;
+     }
+     .footer-bottom{
+      font-size: 15px;
      }
 } 
 
@@ -406,6 +431,9 @@ responsive design for mobile
     .centers{
         grid-template-columns: repeat(1, 1fr);
        
+       }
+       .footer-bottom{
+        font-size: 12px;
        }
 
 }
