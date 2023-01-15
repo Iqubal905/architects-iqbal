@@ -11,7 +11,6 @@
  .container{
    padding: 50px 10%; 
 
-   
  }
  .header-banner-section{
     background: rgba(255, 144, 14, 0.1);
@@ -79,7 +78,9 @@
 
      }
 
-     /* style feature section */
+     /*-------------
+     style feature section 
+     -------------*/
 
   .first-features-section{
     display: grid;
@@ -117,15 +118,15 @@
     font-size: 15px;
 }
 
-/* second feature section */
+/*-----------------
+ second feature section
+ --------------------- */
 
 .second-features-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
    
      
-   
-
 }
 .second-features{
     padding-top: 20px;
@@ -174,7 +175,9 @@
     border-radius: 5px;
 }
 
-/* facts style */
+/* ------------
+facts style 
+--------------*/
 
 .fact-section-title{
     color:black;
@@ -187,7 +190,6 @@
     color:#727272;
     margin-bottom: 30px;
     
-
 }
 .icon-boxs{
     display: flex;
@@ -221,7 +223,9 @@ transition: width 2s, height 2s, transform 2s;
     background-color: #ff900e;
 }
 
-/* Bonus section  */
+/*-----------------
+ Bonus section
+ -----------------  */
 
 
     .center-section-title{
@@ -253,7 +257,6 @@ transition: width 2s, height 2s, transform 2s;
 
 }
 
-
 .center{
     padding: 20px 25px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
@@ -261,7 +264,10 @@ transition: width 2s, height 2s, transform 2s;
 }
 
 
-/* footer style */
+/* --------------
+footer style 
+------------------*/
+
  .footer-title-description{
     text-align: center;
  }
@@ -295,9 +301,10 @@ border-radius: 8px;
 margin: 0px 10%;
 padding: 20px 0;
 }
-/* responsiv design */
 
-
+/* -----------------
+responsive design for tablet
+-------------------- */
 
 @media only screen and (max-width: 768px) {
     header{
@@ -313,6 +320,11 @@ padding: 20px 0;
         align-items: center;
      }
 } 
+
+/* -----------------
+responsive design for mobile
+-------------------- */
+
 @media only screen and (max-width: 576px) {
     .container{
         padding: 20px 5%;
@@ -344,6 +356,10 @@ padding: 20px 0;
         font-size: 25px;
         
        }
+       .banner-title-description{
+        margin: 0px 10%;
+       
+     }
        .first-features-section{
         grid-template-columns: repeat(1, 1fr);
        }
